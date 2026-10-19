@@ -1,0 +1,17 @@
+{
+  "name": "lacrm-mcp-server",
+  "version": "1.0.0",
+  "description": "Less Annoying CRM MCP server for Railway, with shared-secret auth",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "lacrm-mcp": "1.9.3",
+    "supergateway": "4.2.0"
+  },
+  "license": "MIT"
+}
